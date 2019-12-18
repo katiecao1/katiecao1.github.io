@@ -39,7 +39,7 @@ hr.star-light,
 hr.star-primary {
   padding: 0;
   border: none;
-  border-top: solid 5px;
+  border-top: solid 3px;
   text-align: center;
   max-width: 250px;
   margin: 25px auto 30px;
@@ -77,8 +77,8 @@ header {
   color: #404040;
 }
 header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 header img {
   display: block;
@@ -87,7 +87,7 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: "Georgia", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 600;
   font-size: 1.25em;
 }
