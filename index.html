@@ -360,16 +360,15 @@
                                     <br><br>
                                     5. Some important variables that play a big role in predicting the bracket:<br>
                                     - Team seed<br>
-                                    - Number of NCAA Sweet Sixteen appearances<br>
                                     - Final and Preseason AP Poll Ranking<br>
                                     - Coach Poll ranking before the final (Here’s an interesting Tableau visualization on college basketball coaches’ salary)<br>
                                     - Opponent's shooting percentage on 3 point field goals<br>
                                     - Points scored per 100 offensive possessions<br>
                                     - Estimate of offensive efficiency & Estimate of defensive efficiency (especially how one factor offsets the other factor of the opponent in a game - classic offense vs. defense in basketball)
                                     <br><br>
-                                    6. Logistic Regression is the way to go. My team relied heavily on logistic regression for many reasons, one of them being the ability to generate a probabilistic winning. Winners of first year's Kaggle March Madness competition published a paper detailing their method, also using logistic regression.
+                                    6. You might think the fanciest machine learning model will be the most optimal option. Well, think again. The devil is in the details. Getting the bracket right requires a good understanding of basketball, statistics, creativity in engineering new features, ability to grid search and tune your hyperparameters, and ultimately, luck. Winners of first year's Kaggle March Madness competition published a paper detailing their method, using good ol' logistic regression. Personally, my team tested a few simple models and went with Random Forest Classifier.
                                     <br><br>
-                                    7. Power of visualization and story-telling. No matter how fancy the machine learning model might be, ultimately it comes down to the Final Four prediction (which only 0.02% of people got it right this year) and the ability to explain the model and findings to judges, who may or may not come from technical background, be an avid basketball fan, or love a good Tableau visualization.
+                                    7. Power of visualization and story-telling. No matter how fancy the machine learning model might be, ultimately it comes down to the Final Four prediction (which only 0.02% of people got it right this year) and the ability to explain the model and findings to judges, who may or may not come from technical background, be an avid basketball fan, or love a good Tableau visualization. FiveThirtyEight (one of my favorite data-driven news sources) did a fantastic job once again with its 2019 march madness bracketology project including an interactive visualization here.
                                     <br><br>
                                     8. Some other interesting techniques that I observed from other participating teams:<br>
                                     - Introduce numbers of NBA draft per team as a variable<br>
@@ -378,7 +377,12 @@
                                     - Apply genetic algorithm to the model
                                     <br><br>
                                     9. Fun fact: My team's prediction for Elite Eight and Final Four matches exactly with the prediction of Adobe Analytics.
-                              
+                                    <br><br>
+                                    10. Limitation:<br>
+
+                                    - Time and resources, or lack thereof: We did not have much time to say, deploy fancy models or come up with more creative features, or simply to beautify our codes just a little bit more. There's always another tournament the following year ...<br>
+                                    - The model built is based heavily on features team seed, AP Ranking, and Coach Ranking. There should be a random noise feature added to account for upsets, especially in the last few matches.<br>
+                                    - Bias in machine learning models: Models are black boxes. Even with an adequate understanding of the fundamental maths behind them, there's room for mistakes and biases. By assessing several methods to evaluate a model and keeping an open mind, only then can we commit to reducing biases.<br>
                                 <br><br>
                                 <iframe width="100%" height="500px" src="file/MarchMadness.pdf#toolbar=0"></iframe>
 
