@@ -606,3 +606,7 @@ div#maincontent {
 .nopadding {
   padding: 0px 0;
 }
+.portfoliobackground {
+  background-color:#262626;
+  color: white;
+}
