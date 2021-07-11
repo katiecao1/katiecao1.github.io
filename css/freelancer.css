@@ -566,9 +566,7 @@ div#maincontent {
   font-size: 18px;
   line-height: 34px;
 }
-.nopadding {
-  padding: 0 !important;
-}
+
 .intro-bullets {
   display: -ms-grid;
   display: grid;
