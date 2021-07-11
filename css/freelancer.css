@@ -610,3 +610,7 @@ div#maincontent {
   background-color:#262626;
   color: white;
 }
+.introfont {
+  font-size: 30px;
+  font-weight: 300;
+}
