@@ -182,7 +182,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
   margin: 0;
@@ -602,4 +602,7 @@ div#maincontent {
 .bullet-icon {
   width: 25px;
   height: 25px;
+}
+.nopadding {
+  padding: 0px 0;
 }
